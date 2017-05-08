@@ -1,0 +1,10 @@
+# Java
+#### Does the language have any particularly unique features?
+
+
+# C#
+#### Does the language have any particularly unique features?
+* dynamic type. This is highly unusual for a strong statically-typed O-O language, though again not unique among all languages as its primary purpose is to allow C# code to more easily interact with duck-typed code like in Erlang, Python, Go or Ruby. The dynamic type essentially tells the compiler not to bother trying to statically resolve any member calls or other behavior of a variable of the type, instead digesting these to reflective invocation for work against a type whose specifics are not known until runtime.
+* var keyword. Not unique, as it's borrowed more or less from JavaScript (though its meaning is slightly different given C#'s stronger typing), but Java doesn't have it, and neither do most other strong statically-typed O-O languages (not in this form; Object Pascal uses it as the header for variable declarations). var allows for type inference in local scope; the type of a declared local variable is assumed to be that of the assigned type. This allows for easier refactoring, as you no longer have to make the explicit declared type of the variable agree with the initial assignment when changing the latter.
+* async/await. While most O-O languages/frameworks have good support for the asynchronous model, these two little keywords set C# apart for ease-of-use, by essentially encapsulating the Task Parallel Library into the language, much as "yield return" made implementing an IEnumerable that much easier. "Async" decorates a method that contains at least one asynchronous call. "Await" decorates the call itself. Other than that, and a change to the return type, the method can be structured as if it were totally synchronous.
+* yield return. It's not seen in every C# program, but it is invaluable when you want to implement IEnumerable (Iterable for the Javaheads) behavior. Instead of manually implementing an IEnumerator companion for your IEnumerable type, your "GetEnumerator" method can encapsulate the logic needed to step through (or generate) each element that should be traversed.

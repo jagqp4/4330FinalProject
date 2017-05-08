@@ -28,3 +28,19 @@ public class MyTask extends Thread {
 
 }
 ```
+# C#
+#### To create a thread in C# you create a variable of type Thread and later call the start() method on it. When you create the Thread variable you must pass it a ThreadStart delegate which points to the method that gets executed in the thread. This is basically C#'s version of the run method.
+```c#
+using System.Threading;
+
+Thread myThread = new Thread(new ThreadStart(DoThisMethod));
+myThread.Start();
+
+// somewhere else
+
+public void DoThisMethod(){
+    
+    //This code is executed by the myThread objcect
+
+}
+```

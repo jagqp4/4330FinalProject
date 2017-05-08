@@ -10,6 +10,7 @@
 
 # C# Memory Management
 #### How is it handled?
+Answered below.
 #### How does it work?
 The memory management life cycle of an object is as follows:
 * When the object is created, memory is allocated for it, the constructor is run, and the object is considered live.

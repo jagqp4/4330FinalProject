@@ -1,10 +1,10 @@
 # Java
 #### Comparisons of references and values:
 #### How are values compared? (i.e. comparing two strings)
-Comparison: a == b, a != b | Reference Type
-Comparison: a.equals(b) | Value Type
-Comparison: a.compareTo(b) | Value Type
-Comparison: compare(a,b) | Value Type
+* Comparison: a == b, a != b | Reference Type
+* Comparison: a.equals(b) | Value Type
+* Comparison: a.compareTo(b) | Value Type
+* Comparison: compare(a,b) | Value Type
 
 # C#
 #### Comparisons of references and values:

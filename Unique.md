@@ -1,6 +1,8 @@
 # Java
 #### Does the language have any particularly unique features?
-
+* The Java Virtual Machine, or JVM, is the platform on which java operates.
+* The JVM infrastructure may take time to get used to, but the classpath and packaging concepts are tries and true.
+* Some major benefits of JVM are how stable of a platform it is, tons of high-quality libraries, and the Just-In-Time compiler gives you performance which rivals native code.
 
 # C#
 #### Does the language have any particularly unique features?
